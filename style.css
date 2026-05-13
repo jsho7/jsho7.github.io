@@ -22,3 +22,18 @@
 	padding-block-start: 0;
 	line-height: 1.4;
 }
+
+.topnav {
+	background-color: lightblue;
+	padding: 20px;
+}
+
+.topnav h1{
+	font-size: 2rem;
+	display: inline;
+}
+
+.topnav a{
+	font-size: 2rem;
+	padding: 50px;
+}
