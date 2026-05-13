@@ -37,9 +37,11 @@ body{
 	display: inline;
 }
 
-.topnav a{
+.topnav a, a:visited{
 	font-size: 2rem;
 	padding: 20px;
+	color: oldlace;
+	text-decoration: none;
 }
 
 .topnav a:hover{
@@ -52,7 +54,4 @@ p, h1, h2, h3, h4{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-a:visited{
-	color:oldlace;
 
-}
