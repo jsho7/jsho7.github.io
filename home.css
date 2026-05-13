@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     column-gap: 30px;
+    background-color: darkslategray;
 }
 
 h1{
@@ -11,9 +12,30 @@ h1{
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+ul{
+  padding-left: 0px;
+  margin-left: 0px;
+  list-style-type: none;
 }
 
 li{
     font-size: 2rem;
+    color: bisque;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
+
+li:hover{
+    background-color: aquamarine;
+}
+
+li a{
+    padding: 20px;
+}
+

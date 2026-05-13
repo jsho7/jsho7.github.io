@@ -24,7 +24,7 @@
 }
 
 .topnav {
-	background-color: lightblue;
+	background-color:cadetblue;
 	padding: 20px;
 }
 
@@ -36,4 +36,9 @@
 .topnav a{
 	font-size: 2rem;
 	padding: 50px;
+}
+
+p, h1{
+	color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
 }
