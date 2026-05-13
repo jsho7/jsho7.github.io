@@ -39,3 +39,7 @@ li a{
     padding: 20px;
 }
 
+li a:hover{
+    color: darkslategrey;
+}
+

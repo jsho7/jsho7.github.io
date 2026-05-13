@@ -1,4 +1,7 @@
 
+body{
+	background-color:cadetblue;
+}
 .first {
 	background-color: lightgreen;
 }
@@ -29,16 +32,27 @@
 }
 
 .topnav h1{
+	padding-right: 20px;
 	font-size: 2rem;
 	display: inline;
 }
 
 .topnav a{
 	font-size: 2rem;
-	padding: 50px;
+	padding: 20px;
 }
 
-p, h1{
+.topnav a:hover{
+	background-color: aquamarine;
+	color: darkslategrey;
+}
+
+p, h1, h2, h3, h4{
 	color: whitesmoke;
 	font-family: 'Times New Roman', Times, serif;
+}
+
+a:visited{
+	color:oldlace;
+
 }
