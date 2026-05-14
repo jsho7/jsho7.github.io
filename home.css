@@ -35,8 +35,10 @@ li:hover{
     background-color: aquamarine;
 }
 
-li a{
+li a, a:visited{
     padding: 20px;
+    color: oldlace;
+	text-decoration: underline;
 }
 
 li a:hover{
